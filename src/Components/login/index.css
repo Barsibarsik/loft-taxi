@@ -1,0 +1,6 @@
+.loginForm {
+    display: flex;
+    width: 200px;
+    border-radius: 20px;
+    background-color: crimson;
+}

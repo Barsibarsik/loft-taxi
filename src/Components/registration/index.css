@@ -1,0 +1,12 @@
+.regForm {
+    
+    width: 580px;
+    height: 631px;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
