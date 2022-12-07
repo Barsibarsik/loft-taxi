@@ -1,13 +1,13 @@
 import React from "react";
-// import ProfileDone from "../profile-done/ProfileDone";
+import "./index.css";
 
 export default function Profile() {
 
-return <form>
-            <h1 className="title">Профиль</h1>
+return <form className="profileForm">
+            <h1 className="title-map">Профиль</h1>
             <h4>Введите платёжные данные</h4>
             <label htmlFor="name">Имя</label>
             <input id="name" type="name" name="name" size="16" />
-            <button >Сохранить</button>
+            <button type="submit" value="Сохранить" className="button-profile">Сохранить</button>
         </form>
 }

@@ -1,9 +1,10 @@
 import React from 'react';
+import "./index.css";
 
 
 export default function OrderMake() {
-     return <form> 
+     return <form className="orderMakeForm"> 
                 <h1 className="title">Форма заказа</h1>
-                <input type="submit" value="Заказать" />
+                <button type="submit" value="Заказать" className="button">Заказать</button>
             </form>
 }

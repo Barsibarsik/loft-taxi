@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Map from './pages/Map';
-import Autorization from './pages/Autorization';
+import Map from './pages/map/Map';
+import Autorization from './pages/autorization/Autorization';
 
 function App() {
   const [login, setLogin] = useState(false);
