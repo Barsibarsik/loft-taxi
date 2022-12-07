@@ -1,0 +1,55 @@
+.regForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 631px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 57px;
+    font-weight: bold;
+}
+
+.button {
+    height: 61px;
+    width: 353px;
+    background-color: #FDBF5A;
+    border: none;
+    border-radius: 70px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 33px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #E4E4E4;
+    height: 42px;
+    margin-bottom: 25px;
+}
+
+label {
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.already_registration {
+    display: flex;
+    justify-content: center;
+}
